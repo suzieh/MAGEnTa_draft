@@ -4,7 +4,7 @@
  Install necessary software and python packages
 ### Recommended : New conda environment
 ```
-conda create --name magenta python=3.7
+conda create --name magenta python=3.8
 ```
 
 
