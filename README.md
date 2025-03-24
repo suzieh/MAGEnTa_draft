@@ -3,17 +3,22 @@
 ## Installation instructions
  Install necessary software and python packages
 ### Recommended : New conda environment
-python version: 3.7
+```
+conda create --name magenta python=3.7
+```
+
 
 ### Python Packages
 os (pre-set)
 sys (pre-set)
 
 ### Software Installation
-metaSPAdes : Follow metaspades instructions outlined here: https://ablab.github.io/spades/installation.html#downloading-sp$
+metaSPAdes : Follow metaspades instructions outlined [in these instructions.](https://ablab.github.io/spades/installation.html#downloading-spades-linux-binaries)
 The SPAdes library should be automatically added to your PATH after you compile.
-Bowtie2 : install bowtie2 using instruction here (Conda method suggested): https://www.metagenomics.wiki/tools/bowtie2/ins$
-add here: check if these softwares are available/installed
+
+Bowtie2 : install bowtie2 using [instruction provided here](https://www.metagenomics.wiki/tools/bowtie2/install) (Conda method suggested).
+
+**ADD ME** check if these softwares are available/installed
 
 
 ## Usage and Tutorial
