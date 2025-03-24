@@ -34,3 +34,8 @@ Produces counts table and engrafted mags lists.
 ./src/align_source.sh -i INPUT_DIR -m MAPPING_FILE -o OUTPUT_DIR -t THREADS -s ALIGN_SCORE
 ```
 note that "ALIGN_SCORE" can only be one of 3 choices for alignment score in the current implementation: 1.00, 0.99, 0.98
+
+### Tutorial Commands
+```
+./src/build_mag_db.sh -i data/sim_samples/ -m data/sim_magenta_table.txt -o output_sim -t 4
+```
